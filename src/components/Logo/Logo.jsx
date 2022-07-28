@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import {LogoBox, Icon, Text, Accent, Link} from './Logo.styled';
 
 export default function Logo() {
@@ -6,7 +7,7 @@ export default function Logo() {
         <Link>
             <Icon />
             <Text>
-            <Accent>Finance</Accent>Ledger
+            <Accent>Finance</Accent> Ledger
             </Text>
         </Link>
         </LogoBox>

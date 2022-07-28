@@ -32,8 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
         font-family: 'Open Sans', sans-serif;
-        color: ${firstColor};
-        background-color: ${(props) => props.theme.color.mainBackground};
+        color: ${firstColor};        
         font-weight: 400;
     }
 `

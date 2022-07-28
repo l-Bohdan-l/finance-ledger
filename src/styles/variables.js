@@ -5,6 +5,7 @@ const fourthColor = '#808080';
 const accentColor = '#28a745';
 const errorColor = '#ce0a0a';
 const backgroundColor = '#0284d0';
+const hoverAccent = '#24d64e';
 
 // border
 const borderRadius = '5px';
@@ -35,8 +36,8 @@ export {
   backgroundColor,
   borderRadius,
   border,
-  duration,
-  timing,
+  transition,
   linGradBgHome,
   size,
+  hoverAccent
 };
