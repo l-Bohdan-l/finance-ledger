@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import {ReactComponent} from '../../images/svg/logoIcon.svg'
-import {transition, accentColor, hoverAccent} from '../../styles/variables'
+import {transition, accentColor, hoverAccent, secondColor} from '../../styles/variables'
 
 export const LogoBox = styled.div`
   display: flex;
@@ -15,9 +15,10 @@ export const Icon = styled(ReactComponent)`
 `
 
 export const Text = styled.p`
-  padding-left: 5px;
+  margin-left: 5px;
   font-size: 32px;
   line-height: 1.32;
+  color: ${secondColor};
 
   @media (min-width: 768px) {
     font-size: 35px;

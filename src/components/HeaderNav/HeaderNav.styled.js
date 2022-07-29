@@ -36,8 +36,8 @@ export const NavItem = styled.li`
 export const NavLink = styled.a`
     font-size: 16px;
     line-height: 1.625;
-    /* color: ${secondColor}; */
-    color: black;
+    color: ${secondColor};
+  
 
     @media screen and (min-width: 768px) {
         font-size: 18px;

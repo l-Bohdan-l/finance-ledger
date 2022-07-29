@@ -1,15 +1,17 @@
 import Logo from "../Logo/Logo"
-// import { Container } from '../Container/Container.jsx'
+import { Container } from '../Container/Container.jsx'
 import { HeaderNav } from "../HeaderNav/HeaderNav"
-import { HeaderBox } from "./Header.styled"
+import { HeaderBox, Wrapper } from "./Header.styled"
 
 export function Header() {
     return (
         <HeaderBox>            
-            {/* <Container> */}
-                <Logo />  
-                <HeaderNav />
-            {/* </Container> */}
+            <Container>
+                <Wrapper>
+                    <Logo />  
+                    <HeaderNav />
+                </Wrapper>
+            </Container>
         </HeaderBox>
     )
 }
