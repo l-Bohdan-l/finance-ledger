@@ -13,14 +13,7 @@ import { Button } from '../Button/Button';
 export function About() {
     return (
         <AboutWrapper> 
-                    <picture>
-                        {/* <source srcSet={`${teamPhotoWebp} 1x, ${teamPhotoWebp2x} 2x`} media="(min-width: 1360px)" type='image/webp'/>
-                        <source srcSet={`${teamPhoto} 1x, ${teamPhoto2x} 2x`} media="(min-width: 1360px)" />
-                        <source srcSet={`${teamPhotoWebp} 1x, ${teamPhotoWebp2x} 2x`} media="(min-width: 768px)" type='image/webp'/>
-                        <source srcSet={`${teamPhoto} 1x, ${teamPhoto2x} 2x`} media="(min-width: 768px)" />
-                        <source srcSet={`${teamPhotoWebp} 1x, ${teamPhotoWebp2x} 2x`} media="(max-width: 767px)" type='image/webp'/>
-                        <source srcSet={`${teamPhoto} 1x, ${teamPhoto2x} 2x`} media="(max-width: 767px)" />
-                        <img src={teamPhoto} alt="Group of people in costumes" /> */}
+                    <picture>                        
                         <source srcSet={`${teamPhotoWebp} 1x, ${teamPhotoWebp2x} 2x`} type='image/webp' media="(min-width: 1360px)"/>
                         <source srcSet={`${teamPhoto} 1x, ${teamPhoto2x} 2x`} media="(min-width: 1360px)"/>
                         <source srcSet={`${teamPhotoTabWebp} 1x, ${teamPhotoTabWebp2x} 2x`} type='image/webp' media="(min-width: 768px)"/>
