@@ -3,7 +3,8 @@ import { Header } from './components/Header/Header';
 // import {Container} from './components/Container/Container';
 import { Hero } from './components/Hero/Hero';
 import { About } from './components/About/About';
-import {Cases} from './components/Cases/Cases';
+import { Cases } from './components/Cases/Cases';
+import {Blog} from './components/Blog/Blog';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
         <Header />
         <Hero />
         <About />
-        <Cases/>
+        <Cases />
+        <Blog />
      
     </div>
   );
