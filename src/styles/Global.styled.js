@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Open Sans', sans-serif;
         color: ${firstColor};        
-        font-weight: 400;
+        /* font-weight: 400; */
     }
 `
 

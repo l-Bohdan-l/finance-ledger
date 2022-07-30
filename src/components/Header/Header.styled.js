@@ -5,8 +5,8 @@ export const HeaderBox = styled.header`
     padding-top: 21px;
     padding-bottom: 5px;
     width: 100%;
-    opacity: 0.8;
-    background-color: ${firstColor};
+    /* opacity: ${props => !props.addBgtoHeader ? '0.8' : '0'};
+    background-color: ${props => !props.addBgtoHeader ? `${firstColor}` : 'none'}; */
     position: fixed;
     top: 0;
     z-index: 1000;

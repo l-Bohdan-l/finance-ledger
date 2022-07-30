@@ -26,6 +26,8 @@ const size = {
   desktopMin: '@media screen and (min-width: 1360px)',
 };
 
+const fontWeight = '400';
+
 export {
   firstColor,
   secondColor,
@@ -39,5 +41,6 @@ export {
   transition,
   linGradBgHome,
   size,
-  hoverAccent
+  hoverAccent,
+  fontWeight
 };

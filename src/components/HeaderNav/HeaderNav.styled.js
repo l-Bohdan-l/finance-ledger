@@ -15,8 +15,11 @@ export const NavItem = styled.li`
     cursor: pointer;
     position: relative;
     transition: ${transition};
-    :not(:last-child) {
+    
+    @media screen and (min-width: 768px) {
+      :not(:last-child) {
         margin-right: 20px;
+    }
     }
 
     :hover, :focus {
